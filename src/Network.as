@@ -127,12 +127,10 @@ package
 		
 		protected function onSmoothMethod(event:Event):void
 		{
-			trace(smoothMethodCb.selectedIndex);
 		}
 		
 		protected function onSelectSendMethod(event:Event):void
 		{
-			trace(sendMethodCb.selectedIndex);
 		}
 		
 		protected function onChangeDelayRange(event:Event):void
